@@ -13,7 +13,7 @@ app.use(cors({ origin: ['http://localhost:5173', 'https://todo-frontend.surge.sh
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello pakistani!');
 });
 
 app.get('/api/v1/todos', (req, res) => {
